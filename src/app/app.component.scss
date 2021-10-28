@@ -1,0 +1,30 @@
+.headerText{
+	color: #fff;
+	// color: #fbfeb2;
+	text-decoration: none;
+}
+
+.mat-toolbar {
+	background-color: #c4d9a9;
+	// background-color: #dbbf9e;
+	color: #fff;
+}
+
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #c4d9a9;
+}
+
+.fill-space {
+	// This fills the remaining space, by using flexbox.
+	// Every toolbar row uses a flexbox row layout.
+	flex: 0.98 0.98 auto;
+}
+
+.cart {
+	color: #fff;
+	text-decoration: none;
+}
+
+.mat-badge-medium.mat-badge-above .mat-badge-content {
+    top: -30px;
+}

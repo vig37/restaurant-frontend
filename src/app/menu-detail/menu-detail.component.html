@@ -1,0 +1,33 @@
+<button mat-raised-button color="primary" (click)="goBack()">Go Back</button>
+<div *ngIf="menu" class="shift-content">
+    <div>
+        <h1>{{ menu.name }}'s Details</h1>
+        <img mat-card-image class="imgFix" src="{{ menu.pictureURL }}" >
+    </div>
+
+    <span>
+        Dish Type:
+    </span>
+    <p>{{ menu.dishType }}</p>
+
+    <span>
+        Description: 
+    </span>
+    <p> {{ menu.description }}</p>
+
+    <span>
+        Ingredients:
+    </span>
+    <p>{{ menu.ingredients }}</p>
+
+    <span style="color: crimson;">
+        FOOD ALLERGY NOTICE:
+    </span>
+    <p>Please be advised that food prepared here may contain these ingredients:
+            <li>milk</li>
+            <li>eggs</li>
+            <li>nuts</li>
+            <li>flour</li>
+            <li>love :)</li>
+    </p>
+</div>

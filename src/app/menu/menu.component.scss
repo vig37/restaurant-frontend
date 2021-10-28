@@ -1,0 +1,43 @@
+h1 {
+	font-family: Roboto; 
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    color: #a1a1a1;
+	margin-top: 15px;
+	// text-align: center;
+	// margin-top: 5px;
+}
+.card {
+    width: 300px;
+	height: 475px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+    float: left;
+	background-color: #ffff;
+	color: black;
+}
+
+mat-card img{
+	object-fit: cover; /*this makes the image in src fit to the size specified below*/
+	width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+	height: 60%;
+}
+
+mat-card-content img {
+	width: 15%;
+	height: 15%;
+}
+
+::ng-deep .mat-snack-bar-container{
+	// color: #155724 !important;
+	// background-color: #d4edda !important;
+	// border-color: #c3e6cb !important;
+	color: #a1a1a1 !important;
+	background-color: #fbfeb2 !important;
+	border-color:#fbfeb2c9 !important;
+	
+  }
+

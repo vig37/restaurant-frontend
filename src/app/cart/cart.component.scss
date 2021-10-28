@@ -1,0 +1,55 @@
+.shift-content{
+	text-align: center;
+    // margin-left: 10%;
+}
+
+table { 
+    width: 50%;
+    margin-left: 25%;
+    overflow-x: auto;
+}
+
+button {
+    margin-left: 24%;
+}
+
+h1 {
+    font-family: Roboto; 
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    color: #a1a1a1;
+    margin-top: 3%;
+}
+.mat-column-price {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 10% !important;
+    width: 100px !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.mat-column-count {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 10% !important;
+    width: 100px !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+

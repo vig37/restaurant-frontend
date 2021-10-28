@@ -1,0 +1,19 @@
+<h1>~ Menu ~</h1>
+<mat-card class="card" *ngFor="let item of menu">
+    <mat-card-title>{{ item.name }}</mat-card-title>
+    <mat-card-subtitle>{{ item.dishType }}</mat-card-subtitle>
+    <img mat-card-image src="{{ item.pictureURL }}" alt="{{ item.description }}">
+    <mat-card-content>
+      <p>{{ item.description }}</p>
+      <p>{{ item.price }} bells</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="addToCart(item)">Add To Cart</button>
+      <button 
+        mat-raised-button color="primary" 
+        routerLink="/detail/{{ item.id }}" 
+        >More Details
+      </button>
+    
+    </mat-card-actions>
+</mat-card>
